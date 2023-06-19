@@ -4,8 +4,10 @@ import { BsGithub} from "react-icons/bs";
 
 
 import foto1 from "./proyecto1.jpg";
-/* import foto2 from "./proyecto2.jpg";
- */ 
+import foto2 from "./Proyecto2.jpg";
+import foto3 from "./proyecto3.jpg";
+
+ 
  
 
 
@@ -48,7 +50,7 @@ export default function Card () {
             <div className="card-component">
             <img  
             className="img-card" 
-            src={foto1}>              
+            src={foto3}>              
             </img>
             <h4 className="tittle-card">Credit Card Form</h4>
             <div 
@@ -78,7 +80,7 @@ export default function Card () {
             <div className="card-component">
             <img  
             className="img-card" 
-            src={foto1}>              
+            src={foto2}>              
             </img>
             <h4 className="tittle-card">List of tasks</h4>
             <div 
