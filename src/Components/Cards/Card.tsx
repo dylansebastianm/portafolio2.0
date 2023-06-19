@@ -4,8 +4,8 @@ import { BsGithub} from "react-icons/bs";
 
 
 import foto1 from "./proyecto1.jpg";
-import foto2 from "./proyecto2.jpg";
- 
+/* import foto2 from "./proyecto2.jpg";
+ */ 
  
 
 
