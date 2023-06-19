@@ -1,0 +1,32 @@
+.skills-component{
+    margin-top: 5rem;
+}
+
+.skills{
+    font-size: 4rem;
+    cursor: pointer;
+    color: #0f1721;
+    filter: drop-shadow(2px 2px 4px #414555);
+
+}
+
+.skills:hover{
+    transform: scale(1.2);
+}
+
+.skills-container2{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;  
+    justify-content: center;  
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    
+}
+
+.skill-name{
+    color: #5b6074;
+}

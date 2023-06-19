@@ -1,0 +1,54 @@
+.nav-component{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.8rem;
+    width: 98.5%;
+    height: 3rem;
+    background-color: rgba(34, 38, 47, .48);
+    margin-left: 0.7rem;
+    border: 1px solid rgba(227, 232, 243, 0.103);
+    border-radius: 0.5rem;
+}
+
+.iconsNav{
+    display: flex;
+    gap: 0.7rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.links-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1rem;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.rutas{
+    display: flex;
+    gap: 1rem;
+}
+
+.links{
+    cursor: pointer;
+    font-weight: 550;
+    color: #959cb2;
+}
+
+.barrita{
+    font-weight: 550;
+    color: #959cb257;
+
+}
+
+.tittle{
+    font-size: clamp(1.5rem,2vw,1.75rem);
+    font-weight: 500;
+    color: #454a5f;
+}
+
+.iconsNav{
+    color: #959cb2;
+}
