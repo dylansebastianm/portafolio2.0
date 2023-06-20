@@ -12,7 +12,7 @@ import { SiJavascript, SiGithub, SiReact, SiHtml5, SiBootstrap, SiRedux,
 export default function Skills () {
     return (
         <div className="skills-component">
-            <div className="tittles-body">Habilidades</div>
+            <div id="habilidades" className="tittles-body">Habilidades</div>
             <hr className="barrita-tittles"></hr>
             
             <div id="proyects" className="skills-container2">

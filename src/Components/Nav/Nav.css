@@ -26,6 +26,10 @@
     margin-right: 3rem;
 }
 
+.icons-redes2{
+
+    color: #959cb2;
+}
 .rutas{
     display: flex;
     gap: 1rem;
@@ -35,7 +39,16 @@
     cursor: pointer;
     font-weight: 550;
     color: #959cb2;
+    transition: color 0.3s, box-shadow 0.3s;
+
 }
+
+.links:hover{
+    color: #f9f9fb;
+  text-decoration: none;
+ text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
 
 .barrita{
     font-weight: 550;
