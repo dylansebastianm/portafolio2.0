@@ -65,3 +65,16 @@
 .iconsNav{
     color: #959cb2;
 }
+
+
+@media (max-width: 650px) {
+    .links{
+        display: none !important;
+    }
+    .barrita{
+        display: none !important;
+    }
+    .iconsNav{
+        justify-content: center;
+    }
+  }

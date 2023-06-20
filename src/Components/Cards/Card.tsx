@@ -16,7 +16,6 @@ import foto3 from "./proyecto3.jpg";
 
 export default function Card () {
     return (
-        <div className="scale">
             <div id="proyectos" className="cards-tittle-proyects">
             <div className="tittles-body">Proyectos</div>
             <hr className="barrita-tittles"></hr>
@@ -175,7 +174,6 @@ export default function Card () {
         </div>
         </div>
        
-        </div>
         
         
         

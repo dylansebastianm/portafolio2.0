@@ -8,7 +8,7 @@
 .footer-text{
     color: #67718e;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding-top: 2rem;
 }
 
@@ -20,4 +20,20 @@
     justify-content: center;
     cursor: pointer;
     color: #959cb2b0;
+}
+
+@media (max-width: 650px) {
+    .footer-component{
+        height: 10rem;
+        width: 100%;
+        margin-top: 5rem;
+        background-color: #15171e;
+    }
+    .footer-text{
+        color: #67718e;
+        font-weight: 500;
+        font-size: 0.9rem;
+        padding-top: 2rem;
+    }
+
 }
